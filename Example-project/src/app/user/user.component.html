@@ -1,0 +1,20 @@
+<clr-datagrid>
+    <clr-dg-column>User ID</clr-dg-column>
+    <clr-dg-column>Name</clr-dg-column>
+    <clr-dg-column>Favorite color</clr-dg-column>
+  
+    <clr-dg-row *ngFor="let user of users">
+      <clr-dg-action-overflow>
+        <button class="action-item" (click)="onDelete(user.id)">Delete</button>
+      </clr-dg-action-overflow>
+      <clr-dg-cell>{{ user.id }}</clr-dg-cell>
+      <clr-dg-cell>{{ user.name }}</clr-dg-cell>
+      <clr-dg-cell>{{ user.color }}</clr-dg-cell>
+    </clr-dg-row>
+  
+    <clr-dg-footer>{{ users.length }} users</clr-dg-footer>
+    
+  </clr-datagrid>
+  {{message}}
+  <app-delete-user *ngIf="show"[UserId]="iduser"(close)="cancelAction()"(save)="message=$event"></app-delete-user>
+  

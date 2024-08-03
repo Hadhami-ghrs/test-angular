@@ -1,0 +1,29 @@
+[
+    {
+      "createdAt": "2024-05-12",
+      "email": "next@ioc.tngggggggggggg",
+      "firstName": "Hajer",
+      "id": 1,
+      "isActive": true,
+      "lastName": "Fahem",
+      "password": "$2b$10$4/MbiNdGtvZg33k3lrMPwOAh1/vXldxsxWmSZTvqTpeykPXQS7eUa",
+      "role": "admin",
+      "tokenValue": "lp8&FZU1b9eFaK0BnP@8wlgGADwt@XGcQk5&1A6i7Qo&uAeRLC",
+      "updatedAt": null,
+      "username": "next@ioc.tngggggggggggg"
+    },
+    {
+      "createdAt": "2024-05-12",
+      "email": "ahlemALi@gmail.com",
+      "firstName": "Ahemd",
+      "id": 3,
+      "isActive": true,
+      "lastName": "ben ALi",
+      "password": "$2b$10$qvWcfVURpGry2ni3FR0SZufLGE2rHLnXfGf1NWwn2oGFfgnpz5T5W",
+      "role": "user",
+      "tokenValue": "pFuHBwWqXd3Li6b@rd8cEe9yFRaDIESgSRKHgV33c1ERhr3lWd",
+      "updatedAt": null,
+      "username": "ahlemALi@gmail.com"
+    }
+  ]
+  
